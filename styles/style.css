@@ -22,3 +22,18 @@
     letter-spacing: 5px;
     padding: 60px;
 }
+.article{
+    width: 80%;
+    margin: 60px auto;
+    border: 10px solid yellow;
+    padding: 20px;
+    background-color: rgb(76, 205, 205);
+}
+.article h2{
+    font-size: 48px;
+    text-align: center;
+}
+.article p{
+    font-size: 2em;
+    line-height: 3em;
+}
