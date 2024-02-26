@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+}
+
+.hero{
+    background-image: url('../images/cow.jpg');
+    background-position: bottom center;
+    background-size: cover;
+    height: 100vh;
+}
+.hero h1{
+    color: azure;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 900;
+    font-family: cursive;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    padding: 60px;
+}
