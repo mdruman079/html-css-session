@@ -11,6 +11,7 @@
     background-position: bottom center;
     background-size: cover;
     height: 100vh;
+    clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
 }
 .hero h1{
     color: azure;
@@ -22,18 +23,34 @@
     letter-spacing: 5px;
     padding: 60px;
 }
-.article{
+.article, #cow-type{
     width: 80%;
     margin: 60px auto;
     border: 10px solid yellow;
     padding: 20px;
-    background-color: rgb(76, 205, 205);
+    background: linear-gradient(45deg, yellow, blue);
+
 }
-.article h2{
+.article h2, #cow-type h2{
     font-size: 48px;
     text-align: center;
 }
 .article p{
     font-size: 2em;
     line-height: 3em;
+}
+.cow-image{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.cow-image div{
+    min-width: 300px;
+}
+.cow-image img{
+    width: 100%;
+}
+.pr{
+    text-align: center;
+    margin: 20px 0px;
 }
